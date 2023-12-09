@@ -1,0 +1,212 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color:rgb(212, 238, 254);
+}
+*{
+    box-sizing: border-box;
+    width: auto;
+}
+.user-pic img{
+    height: 40px;
+}
+.diypage{
+    position: absolute;
+    color:teal;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.inside-diypage{ 
+    line-height: normal;
+}
+.inside-diypage h1{
+    font-size: 40px;
+}
+.inside-diypage p{
+    color: #000000;
+    font-size: 17px;
+}
+span{
+    color:teal;
+    font-weight: bold;
+
+}
+.line1{
+    height: 2px;
+    background-color:teal;
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.btn1{
+    margin-top: 30px;
+}
+.btn1 a{
+    background-color: teal;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.btn1 a:hover{
+    background: rgb(145, 144, 215);
+    color: teal;
+}
+
+.btn1 i{
+    color:rgb(255, 255, 255);
+    padding: 0px 10px;
+}
+.btn1 i:hover{
+    color: white;
+}
+.poster{
+    margin-top: 130px;
+    margin-right: 150px;
+}
+.poster img{
+    height:320px;
+    width: auto;
+    float: right;
+    border-radius: 10px;
+}
+.diy-video{
+    position: absolute;
+    justify-content: space-around;
+    width:100%;
+    background-color: rgb(212, 238, 254);
+    margin-top: 500px;
+    padding: 0px 20px;
+}
+.diy-video h1{
+    font-size: 20px;
+    color:teal;
+    
+}
+.diy-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.diy-inside img{
+    height: 122px;
+    cursor: pointer;
+    padding: 4px;
+    transition: all 500ms ease-in-out;
+}
+.diy-inside img:hover{
+    transform: scale(1.2);
+}
+.heading1{
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+.heading1 h4{
+    font-size: 15px;
+}
+.btn2{
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.btn2 a{
+    font-size: 13px;
+    text-decoration: none;
+    background: teal;
+    padding: 7px 7px;
+    border-radius: 10%;
+    color: white;
+
+}
+.diy2-video{
+    position: absolute;
+    justify-content: space-around;
+    width:100%;
+    background-color: rgb(212, 238, 254);
+    margin-top: 850px;
+    padding: 0px 20px;
+}
+.diy2-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    color: rgb(230, 250, 255);
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    background-color:rgb(212, 238, 254);
+    margin-top: 50px;
+}
+footer p{
+    color:#000000;
+    margin: 10px 0px;
+    font-size: 0.9rem;
+}
+
+<!--DIY DASHBOARD-->
+.diy1-video{
+    position: absolute;
+    background-color: rgb(212, 238, 254);
+    padding: 0px 20px;
+    color: white;
+    margin-top: 60px;
+}
+.diy1-video h1{
+    font-size: 20px;
+    color:rgb(18, 241, 241);
+}
+.diy1-container{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diy1-inside img{
+   height: 122px;
+   border-radius: 10px;
+   transition: all 500ms ease-in-out;
+}
+.diy1-inside img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.diy22-video{
+    position: absolute;
+    width:100%;
+    background-color: rgb(212, 238, 254);
+    padding: 0px 20px;
+    color: white;
+    margin-top: 60px;
+}
+.diy22-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.diy33-video{
+    position: absolute;
+    width:100%;
+    background-color: rgb(212, 238, 254);
+    padding: 0px 20px;
+    color: white;
+    margin-top: 350px;
+}
+.diy33-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
